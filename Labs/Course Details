@@ -1,0 +1,11 @@
+At its core, a computer is just a processor with some memory, capable of running tiny instructions like “store 5 in memory location 23459.” Why would we express a program as a text ﬁle in a programming language, instead of writing processor instructions?
+
+The advantages:
+
+Conciseness: programming languages allow us to express common sequences of com­ mands more concisely. C++ provides some especially powerful shorthands.
+
+Maintainability: modifying code is easier when it entails just a few text edits, instead of rearranging hundreds of processor instructions. C++ is object oriented (more on that in Lectures 7-8), which further improves maintainability.
+
+Portability: diﬀerent processors make diﬀerent instructions available. Programs writ­ ten as text can be translated into instructions for many diﬀerent processors; one of C++’s strengths is that it can be used to write programs for nearly any processor.
+
+C++ is a high-level language: when you write a program in it, the shorthands are suﬃciently expressive that you don’t need to worry about the details of processor instructions. C++ does give access to some lower-level functionality than other languages (e.g. memory addresses).
